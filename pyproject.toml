@@ -1,0 +1,13 @@
+[project]
+name = "resume-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.2",
+    "rendercv[full]>=2.2",
+]
+
+[tool.uv.sources]
+rendercv = { git = "https://github.com/rendercv/rendercv" }

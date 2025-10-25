@@ -1,0 +1,22 @@
+[
+    {
+      "label": "Programming Languages",
+      "details": "C, C++, TypeScript, JavaScript"
+    },
+    {
+      "label": "Databases",
+      "details": "PostgreSQL, MySQL, MongoDB"
+    },
+    {
+      "label": "CS Fundamentals",
+      "details": "Data Structures and Algorithms, Operating Systems, Computer Networking, Database Management System"
+    },
+    {
+      "label": "Frameworks & Libraries",
+      "details": "Next.js, React, Drizzle ORM, Clerk, Zustand, React Query, Tailwind CSS"
+    },
+    {
+      "label": "Tools & Concepts",
+      "details": "Multithreading, Socket Programming, Docker, Event-Driven Architecture, Caching, Protocol Design, Git, PWA Development"
+    }
+  ]

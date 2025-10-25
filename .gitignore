@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+rendercv_output/
+markdown
+classic
+engineeringresumes
+sb2nov
+Raquib_Reyaz_CV.yaml
+info/github_cache.json
