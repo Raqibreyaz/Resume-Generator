@@ -5,22 +5,22 @@ cv:
   email: raquibreyaz111@gmail.com
   website: https://raquibreyaz.netlify.app
   social_networks:
-    - network: GitHub
-      username: Raqibreyaz
-    - network: LinkedIn
-      username: Raqibreyaz
-    - network: Leetcode
-      username: raquibreyaz
+  - network: GitHub
+    username: Raqibreyaz
+  - network: LinkedIn
+    username: raquibreyaz
+  - network: Leetcode
+    username: raquibreyaz
   sections:
-     Education:
-      - institution: Bhabha Engineering Research Institute Bhopal
-        degree: Bachelor of Technology
-        area: Computer Science and Engineering
-        start_date: 2022-08
-        end_date: 2026-06
-        location: Bhopal, India
-        # highlights:
-        #   - Data Structures and Algorithms, Web Development, Database Management Systems, Operating Systems, Computer Networks
+    Education:
+    - institution: Bhabha Engineering Research Institute Bhopal
+      degree: Bachelor of Technology
+      area: Computer Science and Engineering
+      start_date: 2022-08
+      end_date: 2026-06
+      location: Bhopal, India
+      # highlights:
+      #   - Data Structures and Algorithms, Web Development, Database Management Systems, Operating Systems, Computer Networks
 design:
   theme: sb2nov
   page:
@@ -50,14 +50,16 @@ design:
   header:
     name_font_family: New Computer Modern
     name_font_size: 25pt
-    name_bold: false
+    name_bold: true
     photo_width: 3.5cm
     vertical_space_between_name_and_connections: 0.5cm
     vertical_space_between_connections_and_first_section: 0.3cm
-    horizontal_space_between_connections: 0.15cm
+    horizontal_space_between_connections: 0.3cm
     connections_font_family: New Computer Modern
     separator_between_connections: '|'
     use_icons_for_connections: false
+    use_urls_as_placeholders_for_connections: true
+    make_connections_links: true
     alignment: center
   section_titles:
     type: with-full-line
@@ -151,31 +153,31 @@ locale:
   present: present
   to: –
   abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - June
-    - July
-    - Aug
-    - Sept
-    - Oct
-    - Nov
-    - Dec
+  - Jan
+  - Feb
+  - Mar
+  - Apr
+  - May
+  - June
+  - July
+  - Aug
+  - Sept
+  - Oct
+  - Nov
+  - Dec
   full_names_of_months:
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
+  - January
+  - February
+  - March
+  - April
+  - May
+  - June
+  - July
+  - August
+  - September
+  - October
+  - November
+  - December
 rendercv_settings:
   date: '2025-08-25'
   render_command:

@@ -1,90 +1,60 @@
 {
   "Purpose": [
-    "To contribute to designing, developing, and optimizing secure and scalable software solutions while gaining hands-on experience in end-to-end product development."
+    "Eager to join Microsoft’s software engineering team to contribute to impactful, scalable solutions that serve millions globally. With a strong foundation in problem-solving, systems design, and hands-on experience across backend and full-stack development, I am confident in my ability to deliver high-quality software and continuously learn in a dynamic environment."
   ],
   "skills": [
     {
       "label": "Programming Languages",
-      "details": "C, C++, TypeScript, JavaScript"
-    },
-    {
-      "label": "Databases",
-      "details": "PostgreSQL, MySQL, MongoDB"
+      "details": "C, C++, JavaScript, TypeScript, Python (basic)"
     },
     {
       "label": "CS Fundamentals",
-      "details": "Data Structures and Algorithms, Operating Systems, Computer Networking, Database Management System"
+      "details": "Data Structures and Algorithms, Operating Systems, Computer Networking, Object-Oriented Programming"
     },
     {
-      "label": "Frameworks & Libraries",
-      "details": "Next.js, React, Drizzle ORM, Clerk, Zustand, React Query, Tailwind CSS"
+      "label": "Backend Development",
+      "details": "Node.js, Express.js"
     },
     {
-      "label": "Tools & Concepts",
-      "details": "Multithreading, Socket Programming, Docker, Event-Driven Architecture, Caching, Protocol Design, Git, PWA Development"
+      "label": "Databases",
+      "details": "SQL, PostgreSQL, MySQL, MongoDB"
+    },
+    {
+      "label": "Core Concepts",
+      "details": "Multithreading, Socket Programming, Event-Driven Architecture, REST APIs"
+    },
+    {
+      "label": "Development Tools",
+      "details": "Git, GitHub, Docker, Linux, VS Code"
     }
   ],
   "projects": [
     {
-      "name": "**[AlgoVerse - Data Structure Visualisation](https://github.com/Raqibreyaz/AlgoVerse)** | JavaScript, React.js",
-      "summary": "A JavaScript visualization library supporting 5 core data structures (Graph, Heap, LinkedList, Stack, Queue).",
-      "highlights": [
-        "Achieved **100+ npm downloads within 24 hours** of release, demonstrating strong developer adoption."
-      ]
-    },
-    {
-      "name": "**[Synclet - Delta-based File Synchronization Tool](https://github.com/Raqibreyaz/Synclet)** | C++, Epoll, Inotify, TCP Sockets, Content-Defined Chunking",
-      "summary": "An event-driven peer-to-peer file sync engine with delta synchronization and optimized network transfers.",
-      "highlights": [
-        "Built an **event-driven file syncing engine** handling **10k+ files** using **inotify + epoll**, reducing **CPU usage by ~80%**.",
-        "Optimized network transfers with **content-defined chunking**, syncing only modified chunks and reducing **bandwidth usage by ~70%**.",
-        "Implemented **snapshot versioning**, **smart rename detection**, and **binary-safe transfers**, enabling **100% reliable two-way sync** across peers."
-      ]
-    },
-    {
-      "name": "**[ProxyRaQ - Multithreaded HTTP/HTTPS Proxy Server](https://github.com/Raqibreyaz/ProxyRaQ)** | C, TCP Sockets, Thread Pool, LRU Caching",
+      "name": "**[ProxyRaQ – Multithreaded HTTP/HTTPS Proxy Server](https://github.com/Raqibreyaz/ProxyRaQ)** | C, TCP Sockets, Thread Pool, LRU Caching",
       "summary": "A high-performance HTTP/HTTPS proxy server built in pure C with caching, site blocking, and SSL/TLS support.",
       "highlights": [
         "Developed a **multithreaded HTTP/HTTPS proxy server** in **pure C** with **caching**, **site blocking**, and **SSL/TLS**, featuring modular architecture.",
-        "Achieved **~2,200 requests/sec throughput** under **1,000 concurrent clients**, maintaining **0% failures** and demonstrating high concurrency reliability.",
-        "Optimized **LRU caching** (in-memory + disk), socket backlog, and thread pool scheduling, ensuring **low-latency handling (~44-460 ms)** across varying loads.",
+        "Achieved **nearly 2,200 requests/sec throughput** under **1,000 concurrent clients**, maintaining **0% failures** and demonstrating high concurrency reliability.",
+        "Optimized **LRU caching** (in-memory + disk), socket backlog, and thread pool scheduling, ensuring **low-latency handling between(44–460 ms)** across varying loads.",
         "Containerized with **Docker** for reproducible deployments and scalability testing."
       ]
     },
     {
-      "name": "**[Finance Manager - Personal Finance Tracking PWA](https://github.com/Raqibreyaz/Finance-Manager)** | Next.js, PostgreSQL, Drizzle ORM, React Query",
+      "name": "**[Synclet – Delta-based File Synchronization Tool](https://github.com/Raqibreyaz/Synclet)** | C++, Epoll, Inotify, TCP Sockets, Content-Defined Chunking",
+      "summary": "An event-driven peer-to-peer file sync engine with delta synchronization and optimized network transfers.",
+      "highlights": [
+        "Engineered **event-driven file monitoring system** using Linux **inotify** and **epoll** APIs for **non-blocking I/O**, eliminating CPU overhead from continuous polling",
+        "Implemented content-defined chunking with **Rabin-Karp** rolling hash algorithm and SHA-256 fingerprinting to enable **delta synchronization**, transmitting only modified file segments",
+        "Designed **bidirectional sync** protocol with snapshot versioning, binary-safe transfers, and **smart rename detection** using **timer-based event** correlation"
+      ]
+    },
+    {
+      "name": "**[Finance Manager – Personal Finance Tracking PWA](https://github.com/Raqibreyaz/Finance-Manager)** | Next.js, PostgreSQL, Drizzle ORM, React Query",
       "summary": "A full-stack progressive web app for tracking income, expenses, and savings with real-time analytics and multi-account support.",
       "highlights": [
-        "Built a **modern finance tracking PWA** visualizing **income, expenses, and savings** across **multiple accounts** with **real-time analytics**.",
-        "Reduced redundant database queries by **~40%** using **Drizzle ORM** and indexed **PostgreSQL tables**, enabling **type-safe multi-account** transaction tracking.",
-        "Improved **UI responsiveness by ~50%** through **React Query caching** and **Zustand state management**, with **Zod validation** ensuring **100% data integrity**."
-      ]
-    },
-    {
-      "name": "**[Banaras Mart - Full-Stack E-Commerce Platform](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, React.js, Express.js, MongoDB, TailwindCSS",
-      "summary": "A role-based multi-vendor e-commerce platform with secure JWT authentication, product management, and Razorpay payment integration.",
-      "highlights": [
-        "Developed a **role-based multi-vendor e-commerce platform** with **secure JWT auth**, **product management**, and **Razorpay payments**, supporting **100+ products** and **3 user roles** (Admin/Seller/Customer).",
-        "Achieved **~45% faster page responses** and **>90% lower redundant API calls** using **modular Express.js controllers** and **Redux Toolkit Query caching**.",
-        "Ensured **100% transaction integrity** and **encrypted sessions** via **JWT + bcryptjs**; integrated **Cloudinary CDN** for **~5x faster image delivery** and responsive UX."
-      ]
-    },
-    {
-      "name": "**[Mind Map Builder - Interactive Workflow Visualization Tool](https://github.com/Raqibreyaz/Mind-Map-Builder)** | React.js, React-Flow, Zustand",
-      "summary": "An interactive flow-based editor enabling real-time node creation, connection, and manipulation with undo/redo support.",
-      "highlights": [
-        "Built an **interactive flow-based editor** enabling users to create and connect **50+ nodes** with **real-time drag-and-drop** and **auto-connect edges** using **@xyflow/react**.",
-        "Optimized global state management with **Zustand's selector-based subscriptions**, reducing unnecessary component **re-renders by ~60%** and improving UI responsiveness.",
-        "Implemented **undo/redo stack** with efficient **snapshot tracking**, cutting **history memory usage by ~40%** and ensuring smooth actions under **high interaction frequency**."
-      ]
-    },
-    {
-      "name": "**[CipherForge - File Encryption/Decryption Tool](https://github.com/Raqibreyaz/CipherForge)** | C++, Smart Pointers, Thread Pool",
-      "summary": "A multi-threaded file encryption utility with optimized memory management and high performance.",
-      "highlights": [
-        "Engineered a **multi-threaded file encryption utility** encrypting **1,000+ files 4.2x faster** than sequential execution using **custom thread pool** and **load-balanced task distribution**.",
-        "Optimized memory management with **smart pointers** (unique_ptr, shared_ptr), eliminating memory leaks and maintaining **stability across 500+ concurrent operations**.",
-        "Achieved **\\<10 MB peak memory usage** and ensured **100% successful encryption/decryption** of all files within **large directories (\\>1 GB total data)**."
+        "Built full-stack finance tracking PWA using Next.js frontend with PostgreSQL backend, implementing multi-account architecture with Drizzle ORM for type-safe database queries and relational data fetching",
+        "Optimized database queries using **Drizzle ORM's JOIN operations** and **Common Table Expressions (CTEs)** to efficiently aggregate transactions across **multiple accounts** and categories for analytics, replacing potential **N+1 query patterns**",
+        "Implemented end-to-end validation and type safety using Drizzle schema with Zod, enforcing **data consistency** across API endpoints and frontend forms with React Query for intelligent **client-side caching**"
       ]
     }
   ],

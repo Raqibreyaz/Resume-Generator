@@ -1,22 +1,34 @@
 [
-    {
-      "label": "Programming Languages",
-      "details": "C, C++, TypeScript, JavaScript"
-    },
-    {
-      "label": "Databases",
-      "details": "PostgreSQL, MySQL, MongoDB"
-    },
-    {
-      "label": "CS Fundamentals",
-      "details": "Data Structures and Algorithms, Operating Systems, Computer Networking, Database Management System"
-    },
-    {
-      "label": "Frameworks & Libraries",
-      "details": "Next.js, React, Drizzle ORM, Clerk, Zustand, React Query, Tailwind CSS"
-    },
-    {
-      "label": "Tools & Concepts",
-      "details": "Multithreading, Socket Programming, Docker, Event-Driven Architecture, Caching, Protocol Design, Git, PWA Development"
-    }
-  ]
+  {
+    "label": "Programming Languages",
+    "details": "C, C++, TypeScript, JavaScript, Python(basic)"
+  },
+  {
+    "label": "Databases",
+    "details": "SQL, PostgreSQL, MySQL, MongoDB"
+  },
+  {
+    "label": "CS Fundamentals",
+    "details": "Data Structures and Algorithms, Operating Systems, Computer Networking, Database Management System, OOPS"
+  },
+  {
+    "label": "Frontend Development",
+    "details": "Next.js, React, Zustand, React Query, Tailwind CSS, Redux Toolkit"
+  },
+  {
+    "label": "Backend Development",
+    "details": "Node.js, Express.js, Hono.js"
+  },
+  {
+    "label": "Core Concepts",
+    "details": "Multithreading, Socket Programming, Event-Driven Architecture, Caching, Protocol Design, PWA Development, TCP/IP, REST APIs"
+  },
+  {
+    "label": "Soft Skills",
+    "details": "Communication, Team Collaboration, Agile, Mentorship / Peer Learning, Problem Solving"
+  },
+  {
+    "label": "Development Tools",
+    "details": "Git, Github, Docker, Linux, VS Code"
+  }
+]
