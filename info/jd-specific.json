@@ -1,34 +1,40 @@
 {
   "Purpose": [
-    "Eager to join Microsoft’s software engineering team to contribute to impactful, scalable solutions that serve millions globally. With a strong foundation in problem-solving, systems design, and hands-on experience across backend and full-stack development, I am confident in my ability to deliver high-quality software and continuously learn in a dynamic environment."
+    "Excited to join [Company Name] as a Backend Engineer Intern to contribute to building scalable and efficient backend systems using my strong foundation in backend development and systems programming. With hands-on experience in Node.js, C/C++, and designing robust software solutions, I am eager to collaborate with a talented team and grow my technical expertise through real-world challenges."
   ],
-  "skills": [
-    {
-      "label": "Programming Languages",
-      "details": "C, C++, JavaScript, TypeScript, Python (basic)"
-    },
-    {
-      "label": "CS Fundamentals",
-      "details": "Data Structures and Algorithms, Operating Systems, Computer Networking, Object-Oriented Programming"
-    },
-    {
-      "label": "Backend Development",
-      "details": "Node.js, Express.js"
-    },
-    {
-      "label": "Databases",
-      "details": "SQL, PostgreSQL, MySQL, MongoDB"
-    },
-    {
-      "label": "Core Concepts",
-      "details": "Multithreading, Socket Programming, Event-Driven Architecture, REST APIs"
-    },
-    {
-      "label": "Development Tools",
-      "details": "Git, GitHub, Docker, Linux, VS Code"
-    }
-  ],
+  "skills":[
+  {
+    "label": "Programming Languages",
+    "details": "Node.js, Python(basic), C, C++"
+  },
+  {
+    "label": "Backend Development",
+    "details": "Node.js, Express.js, REST APIs"
+  },
+  {
+    "label": "Databases",
+    "details": "SQL, PostgreSQL, MySQL, MongoDB"
+  },
+  {
+    "label": "Core Concepts",
+    "details": "Event-Driven Architecture, Multithreading, Networking Protocols"
+  },
+  {
+    "label": "Cloud and DevOps",
+    "details": "Docker, Git, GitHub, Linux"
+  }
+]
+,
   "projects": [
+    {
+      "name": "**[Synclet – Delta-based File Synchronization Tool](https://github.com/Raqibreyaz/Synclet)** | C++, Epoll, Inotify, TCP Sockets, Content-Defined Chunking",
+      "summary": "An event-driven peer-to-peer file sync engine with delta synchronization and optimized network transfers.",
+      "highlights": [
+        "Engineered **event-driven file monitoring system** using Linux **inotify** and **epoll** APIs for **non-blocking I/O**, eliminating CPU overhead from continuous polling",
+        "Implemented content-defined chunking with **Rabin-Karp** rolling hash algorithm and SHA-256 fingerprinting to enable **delta synchronization**, transmitting only modified file segments",
+        "Designed **bidirectional sync** protocol with snapshot versioning, binary-safe transfers, and **smart rename detection** using **timer-based event** correlation"
+      ]
+    },
     {
       "name": "**[ProxyRaQ – Multithreaded HTTP/HTTPS Proxy Server](https://github.com/Raqibreyaz/ProxyRaQ)** | C, TCP Sockets, Thread Pool, LRU Caching",
       "summary": "A high-performance HTTP/HTTPS proxy server built in pure C with caching, site blocking, and SSL/TLS support.",
@@ -37,15 +43,6 @@
         "Achieved **nearly 2,200 requests/sec throughput** under **1,000 concurrent clients**, maintaining **0% failures** and demonstrating high concurrency reliability.",
         "Optimized **LRU caching** (in-memory + disk), socket backlog, and thread pool scheduling, ensuring **low-latency handling between(44–460 ms)** across varying loads.",
         "Containerized with **Docker** for reproducible deployments and scalability testing."
-      ]
-    },
-    {
-      "name": "**[Synclet – Delta-based File Synchronization Tool](https://github.com/Raqibreyaz/Synclet)** | C++, Epoll, Inotify, TCP Sockets, Content-Defined Chunking",
-      "summary": "An event-driven peer-to-peer file sync engine with delta synchronization and optimized network transfers.",
-      "highlights": [
-        "Engineered **event-driven file monitoring system** using Linux **inotify** and **epoll** APIs for **non-blocking I/O**, eliminating CPU overhead from continuous polling",
-        "Implemented content-defined chunking with **Rabin-Karp** rolling hash algorithm and SHA-256 fingerprinting to enable **delta synchronization**, transmitting only modified file segments",
-        "Designed **bidirectional sync** protocol with snapshot versioning, binary-safe transfers, and **smart rename detection** using **timer-based event** correlation"
       ]
     },
     {

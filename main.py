@@ -1,3 +1,5 @@
+# file which actually generates the info using the basic-info and jd-specific info
+
 import yaml
 import json
 import subprocess
