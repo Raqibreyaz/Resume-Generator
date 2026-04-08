@@ -1,5 +1,14 @@
 [
   {
+    "name": "**[Banaras Mart – Full-Stack E-Commerce Platform](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, React.js, Express.js, MongoDB",
+    "summary": "A role-based multi-vendor e-commerce platform with secure JWT authentication, product management, and Razorpay payment integration.",
+    "highlights": [
+      "Developed a **role-based multi-vendor e-commerce platform** with **secure JWT auth**, **product management**, and **Razorpay payments**, supporting **100+ products** and **3 user roles** (Admin/Seller/Customer).",
+      "Achieved **~45% faster page responses** and **>90% lower redundant API calls** using **modular Express.js controllers** and **Redux Toolkit Query caching**.",
+      "Ensured **100% transaction integrity** and **encrypted sessions** via **JWT + bcryptjs**; integrated **Cloudinary CDN** for **~5× faster image delivery** and responsive UX."
+    ]
+  },
+  {
     "name": "**[AlgoVerse – Data Structure Visualisation](https://github.com/Raqibreyaz/AlgoVerse)** | JavaScript",
     "summary": "A JavaScript visualization library supporting 5 core data structures (Graph, Heap, LinkedList, Stack, Queue).",
     "highlights": [
@@ -32,15 +41,6 @@
       "Built full-stack finance tracking PWA using Next.js frontend with PostgreSQL backend, implementing multi-account architecture with Drizzle ORM for type-safe database queries and relational data fetching",
       "Optimized database queries using **Drizzle ORM's JOIN operations** and **Common Table Expressions (CTEs)** to efficiently aggregate transactions across **multiple accounts** and categories for analytics, replacing potential **N+1 query patterns**",
       "Implemented end-to-end validation and type safety using Drizzle schema with Zod, enforcing **data consistency** across API endpoints and frontend forms with React Query for intelligent **client-side caching**"
-    ]
-  },
-  {
-    "name": "**[Banaras Mart – Full-Stack E-Commerce Platform](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, React.js, Express.js, MongoDB, TailwindCSS",
-    "summary": "A role-based multi-vendor e-commerce platform with secure JWT authentication, product management, and Razorpay payment integration.",
-    "highlights": [
-      "Developed a **role-based multi-vendor e-commerce platform** with **secure JWT auth**, **product management**, and **Razorpay payments**, supporting **100+ products** and **3 user roles** (Admin/Seller/Customer).",
-      "Achieved **~45% faster page responses** and **>90% lower redundant API calls** using **modular Express.js controllers** and **Redux Toolkit Query caching**.",
-      "Ensured **100% transaction integrity** and **encrypted sessions** via **JWT + bcryptjs**; integrated **Cloudinary CDN** for **~5× faster image delivery** and responsive UX."
     ]
   },
   {
