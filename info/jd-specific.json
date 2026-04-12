@@ -26,28 +26,23 @@
   ],
   "projects": [
     {
-      "name": "**[Banaras Mart – Full-Stack E-Commerce Platform](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, React.js, Express.js, MongoDB",
+      "name": "**[Storra (Cloud Storage Platform)](https://github.com/Raqibreyaz/Personal-Google-Drive)** | Node.js, Express.js, MongoDB, Redis",
+      "summary": "A secure cloud storage platform with role-based access control, file sharing, and robust authentication integration.",
+      "highlights": [
+        "Architected a secure cloud storage API supporting file uploads, downloads, streaming previews, and metadata management.",
+        "Engineered a robust Role-Based Access Control (RBAC) system with granular global and user-specific file sharing permissions.",
+        "Implemented inclusive authentication flows combining OTP verification with external OAuth integrations (Google, GitHub).",
+        "Fortified infrastructure against critical security vulnerabilities including SQL Injection, XSS, CSRF, and DoS attacks."
+      ]
+    },
+    {
+      "name": "**[Banaras Mart (Ecommerce App)](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, Express, MongoDB, Razorpay",
       "summary": "A role-based multi-vendor e-commerce platform with secure JWT authentication, product management, and Razorpay payment integration.",
       "highlights": [
-        "Developed a role-based multi-vendor e-commerce platform with secure JWT auth, product management, and Razorpay payments, supporting 100+ products and 3 user roles (Admin/Seller/Customer).",
-        "Achieved **~45%** faster page responses and >90% lower redundant API calls using modular Express.js controllers and Redux Toolkit Query caching.",
-        "Ensured 100% transaction integrity and encrypted sessions via JWT + bcryptjs; integrated Cloudinary CDN for ~5× faster image delivery and responsive UX."
-      ]
-    },
-    {
-      "name": "**[AlgoVerse – Data Structure Visualisation](https://github.com/Raqibreyaz/AlgoVerse)** | JavaScript",
-      "summary": "A JavaScript visualization library supporting 5 core data structures (Graph, Heap, LinkedList, Stack, Queue).",
-      "highlights": [
-        "Achieved 100+ npm downloads within 24 hours of release, demonstrating strong developer adoption."
-      ]
-    },
-    {
-      "name": "**[Synclet – Delta-based File Synchronization Tool](https://github.com/Raqibreyaz/Synclet)** | C++, Epoll, Inotify, TCP Sockets, Content-Defined Chunking",
-      "summary": "An event-driven peer-to-peer file sync engine with delta synchronization and optimized network transfers.",
-      "highlights": [
-        "Engineered event-driven file monitoring system using Linux inotify and epoll APIs for non-blocking I/O, eliminating CPU overhead from continuous polling",
-        "Implemented content-defined chunking with Rabin-Karp rolling hash algorithm and SHA-256 fingerprinting to enable delta synchronization, transmitting only modified file segments",
-        "Designed bidirectional sync protocol with snapshot versioning, binary-safe transfers, and smart rename detection using timer-based event correlation"
+        "Developed a comprehensive e-commerce backend supporting product management, cart states, and user wishlists.",
+        "Engineered efficient product discovery APIs featuring advanced database filtering and dynamic pagination.",
+        "Integrated the Razorpay API to securely process transactions and orchestrate seamless checkout workflows.",
+        "Implemented a secure user management system handling registration, authentication, and password recovery."
       ]
     }
   ]

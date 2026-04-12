@@ -1,64 +1,22 @@
 [
   {
-    "name": "**[Banaras Mart – Full-Stack E-Commerce Platform](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, React.js, Express.js, MongoDB",
+    "name": "**[Storra (Cloud Storage Platform)](https://github.com/Raqibreyaz/Personal-Google-Drive)** | Node.js, Express.js, MongoDB, Redis",
+    "summary": "A secure cloud storage platform with role-based access control, file sharing, and robust authentication integration.",
+    "highlights": [
+      "Architected a secure cloud storage API supporting file uploads, downloads, streaming previews, and metadata management.",
+      "Engineered a robust Role-Based Access Control (RBAC) system with granular global and user-specific file sharing permissions.",
+      "Implemented inclusive authentication flows combining OTP verification with external OAuth integrations (Google, GitHub).",
+      "Fortified infrastructure against critical security vulnerabilities including SQL Injection, XSS, CSRF, and DoS attacks."
+    ]
+  },
+  {
+    "name": "**[Banaras Mart (Ecommerce App)](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, Express, MongoDB, Razorpay",
     "summary": "A role-based multi-vendor e-commerce platform with secure JWT authentication, product management, and Razorpay payment integration.",
     "highlights": [
-      "Developed a **role-based multi-vendor e-commerce platform** with **secure JWT auth**, **product management**, and **Razorpay payments**, supporting **100+ products** and **3 user roles** (Admin/Seller/Customer).",
-      "Achieved **~45% faster page responses** and **>90% lower redundant API calls** using **modular Express.js controllers** and **Redux Toolkit Query caching**.",
-      "Ensured **100% transaction integrity** and **encrypted sessions** via **JWT + bcryptjs**; integrated **Cloudinary CDN** for **~5× faster image delivery** and responsive UX."
-    ]
-  },
-  {
-    "name": "**[AlgoVerse – Data Structure Visualisation](https://github.com/Raqibreyaz/AlgoVerse)** | JavaScript",
-    "summary": "A JavaScript visualization library supporting 5 core data structures (Graph, Heap, LinkedList, Stack, Queue).",
-    "highlights": [
-      "Achieved **100+ npm downloads within 24 hours** of release, demonstrating strong developer adoption."
-    ]
-  },
-  {
-    "name": "**[Synclet – Delta-based File Synchronization Tool](https://github.com/Raqibreyaz/Synclet)** | C++, Epoll, Inotify, TCP Sockets, Content-Defined Chunking",
-    "summary": "An event-driven peer-to-peer file sync engine with delta synchronization and optimized network transfers.",
-    "highlights": [
-      "Engineered **event-driven file monitoring system** using Linux **inotify** and **epoll** APIs for **non-blocking I/O**, eliminating CPU overhead from continuous polling",
-      "Implemented content-defined chunking with **Rabin-Karp** rolling hash algorithm and SHA-256 fingerprinting to enable **delta synchronization**, transmitting only modified file segments",
-      "Designed **bidirectional sync** protocol with snapshot versioning, binary-safe transfers, and **smart rename detection** using **timer-based event** correlation"
-    ]
-  },
-  {
-    "name": "**[ProxyRaQ – Multithreaded HTTP/HTTPS Proxy Server](https://github.com/Raqibreyaz/ProxyRaQ)** | C, TCP Sockets, Thread Pool, LRU Caching",
-    "summary": "A high-performance HTTP/HTTPS proxy server built in pure C with caching, site blocking, and SSL/TLS support.",
-    "highlights": [
-      "Developed a **multithreaded HTTP/HTTPS proxy server** in **pure C** with **caching**, **site blocking**, and **SSL/TLS**, featuring modular architecture.",
-      "Achieved **nearly 2,200 requests/sec throughput** under **1,000 concurrent clients**, maintaining **0% failures** and demonstrating high concurrency reliability.",
-      "Optimized **LRU caching** (in-memory + disk), socket backlog, and thread pool scheduling, ensuring **low-latency handling between(44–460 ms)** across varying loads.",
-      "Containerized with **Docker** for reproducible deployments and scalability testing."
-    ]
-  },
-  {
-    "name": "**[Finance Manager – Personal Finance Tracking PWA](https://github.com/Raqibreyaz/Finance-Manager)** | Next.js, PostgreSQL, Drizzle ORM, React Query",
-    "summary": "A full-stack progressive web app for tracking income, expenses, and savings with real-time analytics and multi-account support.",
-    "highlights": [
-      "Built full-stack finance tracking PWA using Next.js frontend with PostgreSQL backend, implementing multi-account architecture with Drizzle ORM for type-safe database queries and relational data fetching",
-      "Optimized database queries using **Drizzle ORM's JOIN operations** and **Common Table Expressions (CTEs)** to efficiently aggregate transactions across **multiple accounts** and categories for analytics, replacing potential **N+1 query patterns**",
-      "Implemented end-to-end validation and type safety using Drizzle schema with Zod, enforcing **data consistency** across API endpoints and frontend forms with React Query for intelligent **client-side caching**"
-    ]
-  },
-  {
-    "name": "**[Mind Map Builder – Interactive Workflow Visualization Tool](https://github.com/Raqibreyaz/Mind-Map-Builder)** | React.js, React-Flow, Zustand",
-    "summary": "An interactive flow-based editor enabling real-time node creation, connection, and manipulation with undo/redo support.",
-    "highlights": [
-      "Built an **interactive flow-based editor** enabling users to create and connect **50+ nodes** with **real-time drag-and-drop** and **auto-connect edges** using **@xyflow/react**.",
-      "Optimized global state management with **Zustand's selector-based subscriptions**, reducing unnecessary component **re-renders by ~60%** and improving UI responsiveness.",
-      "Implemented **undo/redo stack** with efficient **snapshot tracking**, cutting **history memory usage by ~40%** and ensuring smooth actions under **high interaction frequency**."
-    ]
-  },
-  {
-    "name": "**[CipherForge – File Encryption/Decryption Tool](https://github.com/Raqibreyaz/CipherForge)** | C++, Smart Pointers, Thread Pool",
-    "summary": "A multi-threaded file encryption utility with optimized memory management and high performance.",
-    "highlights": [
-      "Engineered a **multi-threaded file encryption utility** encrypting **1,000+ files** **4.2× faster** than sequential execution using **custom thread pool** and **load-balanced task distribution**.",
-      "Optimized memory management with **smart pointers** (unique_ptr, shared_ptr), eliminating memory leaks and maintaining **stability across 500+ concurrent operations**.",
-      "Achieved **\\<10 MB peak memory usage** and ensured **100% successful encryption/decryption** of all files within **large directories (\\>1 GB total data)**."
+      "Developed a comprehensive e-commerce backend supporting product management, cart states, and user wishlists.",
+      "Engineered efficient product discovery APIs featuring advanced database filtering and dynamic pagination.",
+      "Integrated the Razorpay API to securely process transactions and orchestrate seamless checkout workflows.",
+      "Implemented a secure user management system handling registration, authentication, and password recovery."
     ]
   }
 ]
