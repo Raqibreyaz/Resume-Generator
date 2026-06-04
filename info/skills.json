@@ -5,11 +5,11 @@
   },
   {
     "label": "Backend Development",
-    "details": "Node.js, REST APIs, Authentication, Asynchronous Programming"
+    "details": "Node.js, REST APIs, Express.js, Asynchronous Programming, Event-Driven Architecture, Role-Based Access Control, Authentication(JWT,OAuth), Mongoose"
   },
   {
     "label": "Databases & Caching",
-    "details": "MongoDB, Redis, SQL"
+    "details": "MongoDB, Redis"
   },
   {
     "label": "Engineering Fundamentals",
@@ -17,6 +17,6 @@
   },
   {
     "label": "Cloud, DevOps & Tools",
-    "details": "AWS, Git, Linux"
+    "details": "AWS, Git, Linux, CI/CD"
   }
 ]

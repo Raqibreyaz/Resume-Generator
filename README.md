@@ -60,7 +60,7 @@ This project uses [uv](https://github.com/astral-sh/uv) as the package manager f
 2. Review the job description you're applying for
 3. Reference `skills.json` and `projects.json` to select relevant items
 4. Update `jd-specific.json` with the selected skills and projects
-5. Run RenderCV to generate your tailored resume
+5. Run `uv run main.py` to generate your tailored resume
 
 ### Video Tutorial
 
