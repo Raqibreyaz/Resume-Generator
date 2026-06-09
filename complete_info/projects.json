@@ -1,0 +1,54 @@
+[
+  {
+    "name": "**[Storra (Cloud Storage Platform)](https://github.com/Raqibreyaz/Personal-Google-Drive)** | Node.js, React.js, Express.js, MongoDB, Redis, AWS S3, AWS EC2",
+    "summary": "A secure cloud storage platform with role-based access control, file sharing, and robust authentication integration.",
+    "highlights": [
+      "Architected a secure cloud storage API supporting file uploads, downloads, streaming previews, and metadata management.",
+      "Engineered a robust Role-Based Access Control (RBAC) system with granular global and user-specific file sharing permissions with 3 roles Owner, Admin and User.",
+      "Implemented inclusive authentication flows combining OTP verification with external OAuth integrations (Google, GitHub).",
+      "Reduced potential security vulnerabilities by implementing robust defenses against SQL Injection, XSS, CSRF, and DoS attacks."
+    ]
+  },
+  {
+    "name": "**[ShipIt (Self-Hosted CI/CD Server)](https://github.com/Raqibreyaz/Storra)** | Node.js, PM2, Telegram API, Octokit, AWS S3 + CloudFront",
+    "summary": "A lightweight, self-hosted CI/CD server that deploys on GitHub push events via webhooks and SSH, featuring smart dependency detection, automatic rollback on unhealthy releases, Telegram notifications, and frontend delivery to S3 + CloudFront.",
+    "highlights": [
+      "Built a webhook-triggered deployment system that SSHs into remote servers, pulls latest code, and skipping `dependency installation` when no dependencies changed.",
+      "Engineered a symlink-based release system with automatic rollback on health-check failure, maintaining last working code in versioned release directories.",
+      "Integrated Telegram Bot API to send structured deployment summaries with log tails on success/failure, and set GitHub commit statuses using Octokit for pending/success/failure states.",
+      "Implemented branch-based deployments, S3 + CloudFront frontend hosting with AWS CLI, and Redis-stored deployment logs with 7-day TTL for step-by-step inspection."
+    ]
+  },
+  {
+    "name": "**[Banaras Mart (Ecommerce App)](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, React.js, Express, MongoDB, Razorpay",
+    "summary": "A role-based multi-vendor e-commerce platform with secure JWT authentication, product management, and Razorpay payment integration.",
+    "highlights": [
+      "Developed a comprehensive e-commerce backend supporting product management, cart states, and user wishlists.",
+      "Engineered efficient product discovery APIs featuring advanced database filtering and dynamic pagination.",
+      "Integrated the Razorpay API to securely process transactions and orchestrate seamless checkout workflows.",
+      "Implemented a secure user management system handling registration, authentication, and password recovery."
+    ]
+  },
+  {
+    "name": "**[ProxyRaQ(Multithreaded Proxy Web Server)](https://github.com/Raqibreyaz/ProxyRaQ)** | C, Thread Pool, Concurrency, LRU Caching, Sockets, HTTP",
+    "summary": "A multi-threaded HTTP proxy server that handles concurrent clients with custom sockets and improves performance using LRU-based caching and low-level request/response handling.",
+    "highlights": [
+      "a multi-threaded HTTP proxy server in C with a thread pool and client queue to handle concurrent connections efficiently and reduce request starvation.",
+      "Implemented an LRU-based cache with mutex-protected shared access and cache invalidation using last-modified time checks to avoid serving stale content.",
+      "Developed low-level socket communication and HTTP request/response parsing, including dynamic buffer growth for large or transfer-encoded server responses.",
+      "Improved reliability by handling client disconnects with SIGPIPE ignoring, adding graceful SIGINT shutdown behavior, and returning custom error responses to clients.",
+      "Added production-focused utilities such as URL normalization, blocked-site filtering from JSON, filename sanitization for cache storage, and environment-based port configuration."
+    ]
+  },
+  {
+    "name": "**[Synclet](https://github.com/Raqibreyaz/Synclet)** | C++, Linux inotify API, epoll, Content-Defined Chunking, SHA-256, TCP / Custom Binary Protocol",
+    "summary": "A content-defined, chunk-based file synchronization and backup tool that detects real file deltas and syncs them efficiently using event-driven file watching, snapshots, and a custom peer protocol.",
+    "highlights": [
+      "Built a content-defined chunked file sync engine in C++ using Rabin-Karp rolling hash for chunk boundary detection and SHA-256 for chunk integrity, syncing only delta changes to minimize bandwidth and sync time",
+      "Integrated Linux's inotify API with epoll for non-blocking, event-driven file watching across recursive directory trees, eliminating CPU-wasteful polling and batching noisy filesystem events",
+      "Designed a custom binary wire protocol with typed messages (MODIFIED_CHUNK, FILE_RENAME, REQ_SNAP, etc.) and length-prefixed framing to reliably stream chunk metadata and raw binary data between peers over TCP",
+      "Implemented snapshot versioning by hashing filename, size, mtime, and chunk hashes via SHA-256 to detect cross-session state drift, enabling efficient initial sync without re-fetching full peer snapshots on every startup",
+      "Engineered initial bidirectional sync logic with mtime-based conflict resolution, ordered_set chunk reassembly from disk-persisted .bin files, and a cookie-based hashmap for pairing inotify MOVED_FROM/MOVED_TO events within a 200ms window"
+    ]
+  }
+]

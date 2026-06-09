@@ -1,0 +1,41 @@
+[
+  {
+    "label": "Languages & Systems",
+    "details": "TypeScript, JavaScript, Python, C,C++,POSIX,POSIX Sockets,Linux inotify API,epoll,Signals,Memory Management"
+  },
+  {
+    "label": "Backend Development",
+    "details": "Node.js, REST APIs, Express.js, Asynchronous Programming, Event-Driven Architecture, Role-Based Access Control, Authentication(JWT,OAuth), Mongoose"
+  },
+  {
+    "label": "Frontend Development",
+    "details": "HTML, CSS, React.js, Tailwind CSS, Shadcn, State Management, Zustand"
+  },
+  {
+    "label": "Databases & Caching",
+    "details": "MongoDB, Redis"
+  },
+  {
+    "label": "Engineering Fundamentals",
+    "details": "DSA, OOP, Operating Systems, DBMS, Computer Networks, Concurrency, Multithreading"
+  },
+  {
+    "label": "Cloud, DevOps & Tools",
+    "details": "AWS, Git, Linux, CI/CD"
+  },
+  {
+    "Concurrency": "Multithreading,Thread Pool, Mutex, Shared State Synchronization, Event-Driven Architecture"
+  },
+  {
+    "Networking & Protocols": "TCP,Socket Programming, HTTP Parsing, Client-Server Communication, Custom Binary Protocol, Length-Prefixed Framing"
+  },
+  {
+    "File Systems & Sync": "Content-Defined Chunking, Chunk-based Delta Sync, Recursive Directory Watching, Binary File I/O, Snapshot Versioning"
+  },
+  {
+    "Algorithms & Data Structures": "Rabin-Karp Rolling Hash, SHA-256,LRU Cache,HashMap, Ordered Set"
+  },
+  {
+    "Utilities & Design": "JSON Parsing, nlohmann/json, CLI Interface, Filename Sanitization, URL Normalization, Error Handling"
+  }
+]

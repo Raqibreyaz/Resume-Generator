@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Languages & Systems",
+    "details": "C, C++, POSIX, POSIX Sockets, Linux inotify API, epoll"
+  },
+  {
+    "label": "Core CS Fundamentals",
+    "details": "DSA, OOP, Operating Systems, DBMS, Computer Networks"
+  },
+  {
+    "label": "Concurrency & Networking",
+    "details": "Multithreading, Thread Pool, Mutex, TCP, HTTP Parsing, Socket Programming"
+  },
+  {
+    "label": "File Sync, Caching & Algorithms",
+    "details": "Content-Defined Chunking, Delta Sync, Snapshot Versioning, LRU Cache, SHA-256, Rabin-Karp Rolling Hash"
+  },
+  {
+    "label": "Tools",
+    "details": "Linux, Git, AWS, CI/CD, JSON"
+  }
+]

@@ -8,6 +8,10 @@
     "details": "Node.js, REST APIs, Express.js, Asynchronous Programming, Event-Driven Architecture, Role-Based Access Control, Authentication(JWT,OAuth), Mongoose"
   },
   {
+    "label": "Frontend Development",
+    "details": "HTML, CSS, React.js, Tailwind CSS, Shadcn, State Management, Zustand"
+  },
+  {
     "label": "Databases & Caching",
     "details": "MongoDB, Redis"
   },

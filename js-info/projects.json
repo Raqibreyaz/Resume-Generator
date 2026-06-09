@@ -1,6 +1,6 @@
 [
   {
-    "name": "**[Storra (Cloud Storage Platform)](https://github.com/Raqibreyaz/Personal-Google-Drive)** | Node.js, Express.js, MongoDB, Redis, AWS S3, AWS EC2",
+    "name": "**[Storra (Cloud Storage Platform)](https://github.com/Raqibreyaz/Personal-Google-Drive)** | Node.js, React.js, Express.js, MongoDB, Redis, AWS S3, AWS EC2",
     "summary": "A secure cloud storage platform with role-based access control, file sharing, and robust authentication integration.",
     "highlights": [
       "Architected a secure cloud storage API supporting file uploads, downloads, streaming previews, and metadata management.",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "name": "**[Banaras Mart (Ecommerce App)](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, Express, MongoDB, Razorpay",
+    "name": "**[Banaras Mart (Ecommerce App)](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, React.js, Express, MongoDB, Razorpay",
     "summary": "A role-based multi-vendor e-commerce platform with secure JWT authentication, product management, and Razorpay payment integration.",
     "highlights": [
       "Developed a comprehensive e-commerce backend supporting product management, cart states, and user wishlists.",
