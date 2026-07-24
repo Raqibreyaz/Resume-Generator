@@ -1,32 +1,32 @@
 [
   {
     "name": "**[Storra (Cloud Storage Platform)](https://github.com/Raqibreyaz/Personal-Google-Drive)** | Node.js, React.js, Express.js, MongoDB, Redis, AWS S3, AWS EC2",
-    "summary": "A secure cloud storage platform with role-based access control, file sharing, and robust authentication integration.",
+    "summary": "A secure cloud storage platform featuring role-based access control, secure authentication, and scalable file management.",
     "highlights": [
-      "Architected a secure cloud storage API supporting file uploads, downloads, streaming previews, and metadata management.",
-      "Engineered a robust Role-Based Access Control (RBAC) system with granular global and user-specific file sharing permissions with 3 roles Owner, Admin and User.",
-      "Implemented inclusive authentication flows combining OTP verification with external OAuth integrations (Google, GitHub).",
-      "Reduced potential security vulnerabilities by implementing robust defenses against SQL Injection, XSS, CSRF, and DoS attacks."
+      "Designed and developed a secure cloud storage API supporting file uploads, downloads, streaming previews, and metadata management.",
+      "Engineered a Role-Based Access Control (RBAC) system with granular Owner, Admin, and User permissions for secure file sharing.",
+      "Implemented authentication workflows combining OTP verification with Google and GitHub OAuth for secure user access.",
+      "Strengthened application security by implementing protections against SQL Injection, XSS, CSRF, and DoS attacks while validating application behavior through extensive API testing."
+    ]
+  },
+  {
+    "name": "**[Video Streaming Platform](https://github.com/Raqibreyaz/Video-Streaming)** | AWS, Node.js, React, TypeScript, AWS Lambda, ECS Fargate, S3, CloudFront, FFmpeg, MongoDB, Docker",
+    "summary": "A cloud-native video streaming platform enabling secure uploads, automated transcoding, and adaptive bitrate streaming",
+    "highlights": [
+      "Built an event-driven video pipeline using AWS S3, Lambda, ECS Fargate, and FFmpeg for automatic transcoding.",
+      "Built Adaptive Bitrate (ABR) HLS streaming by generating 360p, 480p, and 720p video renditions for smooth playback across varying network conditions.",
+      "Developed a serverless backend using S3 pre-signed URLs and CloudFront signed cookies for secure uploads and video delivery.",
+      "Containerized FFmpeg with Docker and integrated MongoDB, IAM, S3, and CloudFront into a scalable media pipeline."
     ]
   },
   {
     "name": "**[ShipIt (Self-Hosted CI/CD Server)](https://github.com/Raqibreyaz/Storra)** | Node.js, PM2, Telegram API, Octokit, AWS S3 + CloudFront",
-    "summary": "A lightweight, self-hosted CI/CD server that deploys on GitHub push events via webhooks and SSH, featuring smart dependency detection, automatic rollback on unhealthy releases, Telegram notifications, and frontend delivery to S3 + CloudFront.",
+    "summary": "A lightweight self-hosted CI/CD platform automating deployments through GitHub webhooks with rollback support and deployment monitoring.",
     "highlights": [
-      "Built a webhook-triggered deployment system that SSHs into remote servers, pulls latest code, and skipping `dependency installation` when no dependencies changed.",
-      "Engineered a symlink-based release system with automatic rollback on health-check failure, maintaining last working code in versioned release directories.",
-      "Integrated Telegram Bot API to send structured deployment summaries with log tails on success/failure, and set GitHub commit statuses using Octokit for pending/success/failure states.",
-      "Implemented branch-based deployments, S3 + CloudFront frontend hosting with AWS CLI, and Redis-stored deployment logs with 7-day TTL for step-by-step inspection."
-    ]
-  },
-  {
-    "name": "**[Banaras Mart (Ecommerce App)](https://github.com/Raqibreyaz/Banaras-Mart)** | Node.js, React.js, Express, MongoDB, Razorpay",
-    "summary": "A role-based multi-vendor e-commerce platform with secure JWT authentication, product management, and Razorpay payment integration.",
-    "highlights": [
-      "Developed a comprehensive e-commerce backend supporting product management, cart states, and user wishlists.",
-      "Engineered efficient product discovery APIs featuring advanced database filtering and dynamic pagination.",
-      "Integrated the Razorpay API to securely process transactions and orchestrate seamless checkout workflows.",
-      "Implemented a secure user management system handling registration, authentication, and password recovery."
+      "Automated application deployments through GitHub webhooks, eliminating manual deployment steps and enabling repeatable software releases.",
+      "Developed a symlink-based release strategy with automated rollback triggered by health-check failures, ensuring reliable deployments.",
+      "Integrated Telegram Bot API and GitHub Commit Status API to provide real-time deployment notifications and deployment status tracking.",
+      "Implemented branch-based deployment workflows, automated frontend deployment to S3 + CloudFront, and Redis-backed deployment logs with seven-day retention for debugging and auditing."
     ]
   }
 ]

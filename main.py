@@ -11,7 +11,7 @@ yaml_file_name = f"{name}_CV.yaml"
 with open("basic-info.yaml") as f:
     basic_info = yaml.safe_load(f)
 
-resume_version = 'cpp-info'
+resume_version = 'complete-info'
 jd_specific = {}
 
 with open(f"{resume_version}/summary.txt", "r", encoding="utf-8") as f:

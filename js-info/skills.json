@@ -1,26 +1,22 @@
 [
   {
     "label": "Programming Languages",
-    "details": "TypeScript, JavaScript"
+    "details": "TypeScript, JavaScript, Cpp"
   },
   {
-    "label": "Backend Development",
-    "details": "Node.js, REST APIs, Express.js, Asynchronous Programming, Event-Driven Architecture, Role-Based Access Control, Authentication(JWT,OAuth), Mongoose"
+    "label": "Backend",
+    "details": "Node.js, Express.js"
   },
   {
-    "label": "Frontend Development",
-    "details": "HTML, CSS, React.js, Tailwind CSS, Shadcn, State Management, Zustand"
+    "label": "Cloud & Infrastructure",
+    "details": "AWS (S3, EC2, Lambda, ECS, CloudFront), Docker, Redis, MongoDB"
   },
   {
-    "label": "Databases & Caching",
-    "details": "MongoDB, Redis"
+    "label": "Software Engineering",
+    "details": "REST APIs, Authentication, RBAC, CI/CD, Git, Linux"
   },
   {
-    "label": "Engineering Fundamentals",
-    "details": "DSA, OOP, Operating Systems, DBMS, Computer Networks, Concurrency, Multithreading"
-  },
-  {
-    "label": "Cloud, DevOps & Tools",
-    "details": "AWS, Git, Linux, CI/CD"
+    "label": "Computer Science",
+    "details": "Data Structures & Algorithms, Object-Oriented Programming, Operating Systems, DBMS, Computer Networks, Concurrency"
   }
 ]

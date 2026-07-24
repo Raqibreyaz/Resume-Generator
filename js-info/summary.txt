@@ -1,1 +1,1 @@
-Full Stack developer with experience building scalable frontend and server-side applications using React.js, Node.js, TypeScript, and MongoDB. Seeking a challenging full stack engineering role to leverage strong CS fundamentals and practical problem-solving skills
+Software engineer with strong foundations in computer science and backend development. Built production-style cloud applications, automation tools, and distributed systems through hands-on projects. Passionate about learning new technologies and building reliable software.
