@@ -1,46 +1,26 @@
 [
   {
-    "label": "Languages & Systems",
-    "details": "TypeScript, JavaScript, Python, C, C++, POSIX, POSIX Sockets, Linux inotify API, epoll, Signals, Memory Management"
+    "label": "Languages",
+    "details": "TypeScript, JavaScript, Java"
   },
   {
     "label": "Backend Development",
-    "details": "Node.js, REST APIs, Express.js, Asynchronous Programming, Event-Driven Architecture, Role-Based Access Control, Authentication(JWT,OAuth), Mongoose"
+    "details": "Node.js, Express.js, Authentication(JWT,OAuth), Mongoose"
   },
   {
     "label": "Frontend Development",
-    "details": "HTML, CSS, React.js, Tailwind CSS, Shadcn, State Management, Zustand"
+    "details": "HTML, CSS, React.js, Tailwind CSS"
   },
   {
     "label": "Databases & Caching",
-    "details": "MongoDB, Redis"
+    "details": "MongoDB, PostgreSQL, Redis"
   },
   {
     "label": "Engineering Fundamentals",
-    "details": "DSA, OOP, Operating Systems, DBMS, Computer Networks, Concurrency, Multithreading"
+    "details": "DSA, OOP, Operating Systems, DBMS, Computer Networks, Concurrency"
   },
   {
     "label": "Cloud, DevOps & Tools",
     "details": "AWS (S3, EC2, Lambda, ECS, CloudFront), Git, Linux, Docker, CI/CD"
-  },
-  {
-    "label": "Concurrency",
-    "details": "Multithreading,Thread Pool, Mutex, Shared State Synchronization, Event-Driven Architecture"
-  },
-  {
-    "label": "Networking & Protocols",
-    "details": "TCP,Socket Programming, HTTP Parsing, Client-Server Communication, Custom Binary Protocol, Length-Prefixed Framing"
-  },
-  {
-    "label": "File Systems & Sync",
-    "details": "Content-Defined Chunking, Chunk-based Delta Sync, Recursive Directory Watching, Binary File I/O, Snapshot Versioning"
-  },
-  {
-    "label": "Algorithms & Data Structures",
-    "details": "Rabin-Karp Rolling Hash, SHA-256, LRU Cache, HashMap, Ordered Set"
-  },
-  {
-    "label": "Utilities & Design",
-    "details": "JSON Parsing, nlohmann/json, CLI Interface, Filename Sanitization, URL Normalization, Error Handling"
   }
 ]

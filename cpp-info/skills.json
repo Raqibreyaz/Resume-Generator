@@ -1,22 +1,18 @@
 [
   {
-    "label": "Languages & Systems",
-    "details": "C, C++, POSIX, POSIX Sockets, Linux inotify API, epoll"
+    "label": "Languages",
+    "details": "TypeScript, JavaScript, Python, C/Cpp"
   },
   {
-    "label": "Core CS Fundamentals",
-    "details": "DSA, OOP, Operating Systems, DBMS, Computer Networks"
+    "label": "Development",
+    "details": "Node.js, React.js, Express.js, REST APIs, HTML, CSS"
   },
   {
-    "label": "Concurrency & Networking",
-    "details": "Multithreading, Thread Pool, Mutex, TCP, HTTP Parsing, Socket Programming"
+    "label": "Cloud and Tools",
+    "details": "AWS S3, EC2, Lambda, ECS, CloudFront, Docker, Git, CI/CD, Linux"
   },
   {
-    "label": "File Sync, Caching & Algorithms",
-    "details": "Content-Defined Chunking, Delta Sync, Snapshot Versioning, LRU Cache, SHA-256, Rabin-Karp Rolling Hash"
-  },
-  {
-    "label": "Tools",
-    "details": "Linux, Git, AWS, CI/CD, JSON"
+    "label": "Engineering",
+    "details": "DSA, OOP, operating systems, DBMS, computer networks, concurrency, multithreading, MongoDB, Redis, HTTP, TCP, socket programming"
   }
 ]

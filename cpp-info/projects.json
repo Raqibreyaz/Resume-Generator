@@ -1,24 +1,30 @@
 [
   {
-    "name": "**[ProxyRaQ(Multithreaded Proxy Web Server)](https://github.com/Raqibreyaz/ProxyRaQ)** | C, Thread Pool, Concurrency, LRU Caching, Sockets, HTTP",
-    "summary": "A multi-threaded HTTP proxy server that handles concurrent clients with custom sockets and improves performance using LRU-based caching and low-level request/response handling.",
+    "name": "**[Storra (Cloud Storage Platform)](https://github.com/Raqibreyaz/Personal-Google-Drive)** | Node.js, React.js, Express.js, MongoDB, Redis, AWS",
     "highlights": [
-      "a multi-threaded HTTP proxy server in C with a thread pool and client queue to handle concurrent connections efficiently and reduce request starvation.",
-      "Implemented an LRU-based cache with mutex-protected shared access and cache invalidation using last-modified time checks to avoid serving stale content.",
-      "Developed low-level socket communication and HTTP request/response parsing, including dynamic buffer growth for large or transfer-encoded server responses.",
-      "Improved reliability by handling client disconnects with SIGPIPE ignoring, adding graceful SIGINT shutdown behavior, and returning custom error responses to clients.",
-      "Added production-focused utilities such as URL normalization, blocked-site filtering from JSON, filename sanitization for cache storage, and environment-based port configuration."
+      "Developed a secure cloud storage API for uploads, downloads, streaming previews, and metadata management.",
+      "Engineered role-based access control and OTP plus Google/GitHub OAuth authentication for secure file sharing.",
+      "Implemented protections against SQL injection, XSS, CSRF, and DoS attacks and validated behavior through extensive API testing."
     ]
   },
   {
-    "name": "**[Synclet](https://github.com/Raqibreyaz/Synclet)** | C++, Linux inotify API, epoll, Content-Defined Chunking, SHA-256, TCP / Custom Binary Protocol",
-    "summary": "A content-defined, chunk-based file synchronization and backup tool that detects real file deltas and syncs them efficiently using event-driven file watching, snapshots, and a custom peer protocol.",
+    "name": "**[Video Streaming Platform](https://github.com/Raqibreyaz/Video-Streaming)** | AWS, Node.js, React, TypeScript, Docker",
     "highlights": [
-      "Built a content-defined chunked file sync engine in C++ using Rabin-Karp rolling hash for chunk boundary detection and SHA-256 for chunk integrity, syncing only delta changes to minimize bandwidth and sync time",
-      "Integrated Linux's inotify API with epoll for non-blocking, event-driven file watching across recursive directory trees, eliminating CPU-wasteful polling and batching noisy filesystem events",
-      "Designed a custom binary wire protocol with typed messages (MODIFIED_CHUNK, FILE_RENAME, REQ_SNAP, etc.) and length-prefixed framing to reliably stream chunk metadata and raw binary data between peers over TCP",
-      "Implemented snapshot versioning by hashing filename, size, mtime, and chunk hashes via SHA-256 to detect cross-session state drift, enabling efficient initial sync without re-fetching full peer snapshots on every startup",
-      "Engineered initial bidirectional sync logic with mtime-based conflict resolution, ordered_set chunk reassembly from disk-persisted .bin files, and a cookie-based hashmap for pairing inotify MOVED_FROM/MOVED_TO events within a 200ms window"
+      "Built an event-driven video pipeline with S3, Lambda, ECS Fargate, and FFmpeg for automatic transcoding.",
+      "Generated 360p, 480p, and 720p HLS renditions and delivered videos through CloudFront signed cookies."
+    ]
+  },
+  {
+    "name": "**[ShipIt (Self-Hosted CI/CD Server)](https://github.com/Raqibreyaz/Storra)** | Node.js, GitHub Webhooks, AWS S3, CloudFront",
+    "highlights": [
+      "Automated repeatable application deployments through GitHub webhooks with branch-based workflows and rollback on health-check failures.",
+      "Tracked deployment status and notifications through GitHub Commit Status and Telegram APIs; retained Redis-backed logs for seven days."
+    ]
+  },
+  {
+    "name": "**[ProxyRaQ(Multithreaded Proxy Web Server)](https://github.com/Raqibreyaz/ProxyRaQ)** | C, Thread Pool, Sockets, HTTP",
+    "highlights": [
+      "Built a multithreaded HTTP proxy with a thread pool, client queue, mutex-protected LRU cache, and low-level request parsing."
     ]
   }
 ]
